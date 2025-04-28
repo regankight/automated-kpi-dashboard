@@ -1,3 +1,4 @@
+"""Cleans and standardizes CRM data for KPI calculation."""
 import pandas as pd
 
 def clean_data(df):
