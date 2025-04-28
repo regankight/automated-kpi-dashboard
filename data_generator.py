@@ -1,3 +1,4 @@
+"""Generates simulated CRM data with realistic errors and duplicates."""
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
