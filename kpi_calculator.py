@@ -1,3 +1,4 @@
+"""Calculates key sales KPIs from cleaned CRM data."""
 def calculate_kpis(df):
     total_leads = len(df)
     closed_won = df[df['deal_stage'] == 'Closed Won']
