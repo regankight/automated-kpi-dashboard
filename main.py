@@ -1,3 +1,5 @@
+"""Main script that runs the full KPI reporting pipeline."""
+
 from data_generator import generate_mock_data
 from data_cleaning import clean_data
 from kpi_calculator import calculate_kpis
