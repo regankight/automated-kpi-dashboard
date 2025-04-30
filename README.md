@@ -4,6 +4,18 @@
 
 This project simulates an automated KPI reporting pipeline using Python, demonstrating key skills in data automation, data cleaning, KPI calculation, and reporting workflows. It reflects the kind of real-world automation I developed at Smarsh, GoRefime, and during freelance projects.
 
+## Tooling Summary (Project-to-Role Alignment)
+
+This project simulates a backend analytics pipeline aligned with common requirements for Analytics Engineer and Data Platform Engineer roles. It includes:
+
+- **ETL modularity**: Python pipeline simulating `generate → clean → calculate → notify` structure  
+- **Schema enforcement**: Null filtering, data coercion, and validation logic matching real-world CRM sync constraints  
+- **Power BI simulation**: Pre-aggregated CSV output for use in dashboard/reporting environments  
+- **Async logic simulation**: Time-delayed refresh and error alerting replicates retry-safe orchestration (as used in ADF + Power Automate)  
+- **Job-ready architecture**: Matches HSM-eligible data roles in validation-first ETL, reporting infrastructure, and dashboard reliability  
+
+All code is fully modular and executable via `main.py`, with output stored in the `output/` directory.
+
 ## Use Case
 
 The project showcases how to build a lightweight automated reporting solution without needing heavy backend infrastructure. It combines data cleaning, KPI calculation, and a simulated refresh process, similar to how BI and RevOps teams streamline reporting workflows.
